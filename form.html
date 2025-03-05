@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Pendaftaran</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form method='POST' action=''>
+       <div class='img'>
+        
+       </div>
+
+       <div class='container'>
+        <h1>Form Pendaftaran Pasien</h1>
+        <hr>
+        <p class='noto-sans'>Mohon isi form dengan data lengkap pasien sebelum menunggu antrian</p>
+
+       </div>
+
+       <div class='container'>
+          <p class='noto-sans'>Nama Lengkap</p>
+          <input type="text" name="nama" value="" placeholder='Masukan Nama lengkap'>
+       </div>
+
+       <div class='container'>
+        <p class='noto-sans'>Umur Pasien</p>
+        <input type="text" name="umur" value="" placeholder='Masukan umur pasien'>
+       </div>
+
+       <div class='container'>
+        <p class='noto-sans'>Jenis Kelamin</p>
+        <input id='L' type="radio" name="kelamin" value="L">
+        <label class='noto-sans' for="L">Laki-laki</label>
+        
+        <br>
+        <input id='P' type="radio" name="kelamin" value="P">
+        <label class='noto-sans' for="P">Perempuan</label> 
+       </div>
+
+       <div class='container'>
+        <p class='noto-sans'>Keluhan</p>
+        <input id='pusing' type="checkbox" name="keluhan" value="">
+        <label class='noto-sans' for="pusing">Pusing</label>
+        
+        <br>
+        <input id='mual' type="checkbox" name="keluhan" value="">
+        <label class='noto-sans' for="mual">Mual</label>
+        <br>
+        <input id='muntah' type="checkbox" name="keluhan" value="">
+        <label for="muntah">Muntah</label>
+         
+       </div>
+
+       <button type="submit" form="form1" value="Submit">Submit</button>
+    </form>
+  </body>
+</html>

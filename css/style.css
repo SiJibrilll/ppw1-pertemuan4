@@ -1,0 +1,90 @@
+  :root {
+    /* CSS HEX */
+  --eerie-black: #1c2321ff;
+  --cadet-gray: #7d98a1ff;
+  --paynes-gray: #5e6572ff;
+  --powder-blue: #a9b4c2ff;
+  --antiflash-white: #eef1efff;
+}
+
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: var(--antiflash-white);
+}
+
+.container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 3%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.container hr {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+h1 {
+ font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2.5em;
+  font-style: normal;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+label {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+input {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-bottom: 1px solid var(--eerie-black);
+}
+
+button {
+  margin-bottom: 2%;
+  padding: 2%;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--cadet-gray);
+}
+
+.img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 12%;
+  border-radius: 10px;
+  color: white;
+  background-image: url('https://picsum.photos/id/225/1200/300');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

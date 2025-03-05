@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+  <form>
+    <fieldset>
+      <legend>Implementsi fieldset, legend, option, optgroup</legend>
+
+      <select>
+        <optgroup label="Grup 1">
+         <option value="">Pilihan 1</option>
+         <option value="">Pilihan 2</option>
+        </optgroup>
+        <optgroup label='Grup 2'>
+          <option value="">Pilihan 3</option>
+          <option value="">Pilihan 4</option>
+        </optgroup>
+      </select>
+    </fieldset>
+  </form>
+
+  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <fieldset>
+      <legend>Implementasi output</legend>
+  <input type="number" id="a" value="50">
+  +
+  <input type="number" id="b" value="25">
+  =
+  <output name="x" for="a b"></output>
+
+  <br>
+  <p>Datalist</p>
+  <input list='pilihan' type="text" name="c" value="">
+
+  <datalist id='pilihan'>
+    <option value="">Pilih 1</option>
+    <option value="">Pilih 2</option>
+  </datalist>
+
+    </fieldset>
+  </form>
+
+  </body>
+</html>
